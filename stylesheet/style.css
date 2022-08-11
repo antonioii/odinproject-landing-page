@@ -1,0 +1,56 @@
+/*universal box-sizing reset*/
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+/*basic body config*/
+  body {
+    background-color: antiquewhite;
+    
+    /*the default body has margin and a small viewport compared to the html size, so we do:*/
+    margin: 0px;
+    height: 100vh;
+    /**/
+
+    display: flex;
+    flex-direction: column;
+
+  }
+
+body>*{
+    border: 2px solid red;
+    background-color: rgb(197, 189, 189);
+}
+
+/*=======*/
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.intro-box {
+    display: flex;
+}
+
+.informations-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-informations-box {
+    display: flex;
+}
+
+.flag {
+    display: flex;
+}
+
+footer {
+    margin-top: auto;
+    border: 2px solid red;
+}

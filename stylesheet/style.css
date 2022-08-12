@@ -107,6 +107,11 @@ body>*{
     display: flex;
 }
 
+.card-img {
+  width: 250px;
+  height: 150px;
+}
+
 /*==quotes section==*/
 
 /*==flag section*/

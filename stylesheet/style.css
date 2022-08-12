@@ -21,7 +21,7 @@ html {
   }
 
 body>*{
-    border: 2px solid red;
+   /* border: 2px solid red;*/
     background-color: rgb(197, 189, 189);
 }
 
@@ -103,13 +103,44 @@ body>*{
 }
 
 /*==cards section==*/
-.card-informations-box {
-    display: flex;
-}
-
 .card-img {
   width: 250px;
   height: 150px;
+}
+
+#informations {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  text-align: center;
+  background-color: white;
+}
+
+#informations h1 {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+}
+
+.card-informations-box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+ /* border: 2px solid red;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1 1 auto;
+  margin: 8px;
+
+}
+
+.card>*{
+  max-width: 250px;
+  flex: 1 1 auto;
+/*  border: 2px solid rebeccapurple;*/
 }
 
 /*==quotes section==*/

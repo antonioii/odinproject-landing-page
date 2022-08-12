@@ -264,9 +264,24 @@ blockquote {
 
 /*==footer section==*/
 footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: #1f2937;
     color: white;
     font-size: 18px;
     margin-top: auto;
-    border: 2px solid red;
+}
+
+footer>*{
+  margin: 0px;
+  font-size: small;
+}
+
+footer>p:nth-child(1){
+  margin-top: 36px;
+}
+footer>p:nth-child(2){
+  margin-bottom: 18px;
 }

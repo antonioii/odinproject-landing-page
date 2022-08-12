@@ -185,17 +185,30 @@ body>*{
   background-color: #e5e7eb;
 }
 
-
-.quote-box {
-  padding: 8px 0px;
+/*
+.quote-box,
+.quote-box>* {
+  border: 2px solid red;
 }
+*/
 
 blockquote {
-  width: 400px;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: light;
+  color: #1f2937;
+  width: 700px;
 }
 
 .quotation-autor {
+  margin-top: 10px;
+  margin-bottom: 60px;
   align-self: flex-end;
+  font-size: 30px;
+  font-weight: bolder;
+  color: #1f2937;
 }
 
 

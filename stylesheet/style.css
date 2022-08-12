@@ -6,6 +6,11 @@ html {
     box-sizing: inherit;
   }
 
+/*fonts*/
+* {
+  font-family: 'Roboto Flex', sans-serif;
+}
+
 /*basic body config*/
   body {
     background-color: antiquewhite;

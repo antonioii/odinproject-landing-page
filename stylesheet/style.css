@@ -120,10 +120,15 @@ body>*{
 .intro-text-box button {
   margin-top: auto;
   border-radius: 2px;
+  border: #f9faf8;
   color: white;
   background-color: #3882f6;
   font-weight: bolder;
   padding: 8px;
+}
+
+.intro-text-box>button:active {
+  background-color: black;
 }
 
 /*==information section with the cards insive below==*/
@@ -221,7 +226,7 @@ blockquote {
 }
 
 .flag {
-  background-color:white; /* #3882f6;*/
+  background-color: #3882f6;
   border-radius: 10px;
   padding: 8px;
   margin: 80px 0px;
@@ -230,15 +235,30 @@ blockquote {
 }
 
 .flag-text {
+  color: #f9faf8;
   padding: 0px;
+}
+
+.flag-text>p {
+  margin-top: 8px;
 }
 
 .flag-text>*{
   margin: 2px;
 }
 
-.button {
-  margin-left: 8px;
+.button>button{
+  padding: 8px;
+  font-weight: bolder;
+  background-color: #3882f6;
+  color: #f9faf8;
+  border: 2px solid #f9faf8;
+  border-radius: 10px;
+  margin-left: 16px;
+}
+
+.button>button:active {
+  background-color: black;
 }
 
 

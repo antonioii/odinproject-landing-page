@@ -116,6 +116,9 @@ body>*{
 
 /*==footer section==*/
 footer {
+    background-color: #1f2937;
+    color: white;
+    font-size: 18px;
     margin-top: auto;
     border: 2px solid red;
 }

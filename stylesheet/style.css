@@ -25,31 +25,85 @@ body>*{
     background-color: rgb(197, 189, 189);
 }
 
-/*=======*/
+/*===header elements====*/
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 8px;
+    background-color: #1f2937;
 }
 
+/*.header>* {
+   border: 2px solid red;
+}*/
+
+.links>* {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.header-logo {
+  width: 100px;
+}
+
+/*==intro section==*/
 .intro-box {
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;    
+    background-color: #1f2937;
+    color: white;
 }
 
+.intro-box>*{
+  text-align: center;
+  padding: 10px;
+  border: 2px solid red;
+}
+
+.intro-text-box h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+
+.intro-text-box p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.intro-img-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.intro-img-box>*{
+  max-width: 400px;
+}
+
+
+/*==information section==*/
 .informations-box {
     display: flex;
     flex-direction: column;
 }
 
+/*==cards section==*/
 .card-informations-box {
     display: flex;
 }
 
+/*==quotes section==*/
+
+/*==flag section*/
 .flag {
     display: flex;
 }
 
+/*==footer section==*/
 footer {
     margin-top: auto;
     border: 2px solid red;

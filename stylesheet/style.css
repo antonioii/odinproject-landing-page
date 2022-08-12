@@ -140,13 +140,13 @@ body>*{
 }
 
 #informations {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding: 50px 0px 100px;
   text-align: center;
   background-color: white;
 }
 
 #informations h1 {
+  margin-bottom: 50px;
   font-size: 36px;
   font-weight: bolder;
   color: #1f2937;

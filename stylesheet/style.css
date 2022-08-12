@@ -99,9 +99,13 @@ body>*{
 }
 
 .intro-text-box p {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   font-size: 18px;
   color: #e5e7eb;
+}
+
+.intro-text-box p:nth-last-of-type(1) {
+  margin-bottom: 20px;
 }
 
 .intro-img-box {
@@ -122,7 +126,7 @@ body>*{
   padding: 8px;
 }
 
-/*==information section==*/
+/*==information section with the cards insive below==*/
 .informations-box {
     display: flex;
     flex-direction: column;
@@ -130,7 +134,7 @@ body>*{
 
 /*==cards section==*/
 .card-img {
-  border-radius: 5px;
+  border-radius: 10px;
   width: 250px;
   height: 150px;
 }
@@ -149,16 +153,18 @@ body>*{
 }
 
 .card-informations-box {
+  /*border: 2px solid red;*/
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
 .card {
- /* border: 2px solid red;*/
+  /*border: 2px solid red;*/
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   flex: 1 1 auto;
   margin: 8px;
 

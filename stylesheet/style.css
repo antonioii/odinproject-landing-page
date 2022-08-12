@@ -95,6 +95,13 @@ body>*{
   max-width: 400px;
 }
 
+.intro-text-box button {
+  border-radius: 2px;
+  color: white;
+  background-color: #3882f6;
+  font-weight: bolder;
+  padding: 8px;
+}
 
 /*==information section==*/
 .informations-box {

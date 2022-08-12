@@ -1,3 +1,10 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&display=swap');
+    
+* {
+  font-family: 'Roboto Flex', sans-serif;
+}   
+
 /*universal box-sizing reset*/
 html {
     box-sizing: border-box;
@@ -5,11 +12,6 @@ html {
   *, *:before, *:after {
     box-sizing: inherit;
   }
-
-/*fonts*/
-* {
-  font-family: 'Roboto Flex', sans-serif;
-}
 
 /*basic body config*/
   body {
@@ -39,7 +41,7 @@ body>*{
     background-color: #1f2937;
 }
 
-/*
+/*to debug
 .header>* {
    border: 2px solid red;
 }*/
@@ -76,7 +78,7 @@ body>*{
 
 .intro-box>*{
   margin: 50px 0px;
-  /*border: 2px solid red;*/
+  /*to debug: border: 2px solid red;*/
 }
 
 .intro-text-box {
@@ -92,7 +94,7 @@ body>*{
   margin: 0px;
   margin-right: 100px;
   max-width: 300px;
-  /*border: 2px solid yellow;*/
+  /*to debug: border: 2px solid yellow;*/
 }
 
 .intro-text-box h1 {
@@ -163,14 +165,14 @@ body>*{
 }
 
 .card-informations-box {
-  /*border: 2px solid red;*/
+  /*to debug: border: 2px solid red;*/
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
 .card {
-  /*border: 2px solid red;*/
+  /*to debug: border: 2px solid red;*/
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -183,7 +185,7 @@ body>*{
 .card>*{
   max-width: 250px;
   flex: 1 1 auto;
-/*  border: 2px solid rebeccapurple;*/
+/*to debug: border: 2px solid rebeccapurple;*/
 }
 
 /*==quotes section==*/
@@ -195,7 +197,8 @@ body>*{
   background-color: #e5e7eb;
 }
 
-/*
+/*to debug:
+
 .quote-box,
 .quote-box>* {
   border: 2px solid red;

@@ -1,0 +1,4 @@
+Missing:
+-- font families
+-- button in the intro section
+-- everything bellow the cards

@@ -71,23 +71,23 @@ body>*{
 
 .intro-box>*{
   margin: 50px 0px;
- 
-  
- border: 2px solid red;
+  /*border: 2px solid red;*/
 }
 
 .intro-text-box {
-  width: 500px;
   padding: 0px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: flex-start;
 
 }
 
 .intro-text-box * {
   margin: 0px;
-  border: 2px solid yellow;
+  margin-right: 100px;
+  max-width: 300px;
+  /*border: 2px solid yellow;*/
 }
 
 .intro-text-box h1 {
@@ -99,6 +99,7 @@ body>*{
 }
 
 .intro-text-box p {
+  margin-bottom: 20px;
   font-size: 18px;
   color: #e5e7eb;
 }
@@ -114,7 +115,6 @@ body>*{
 
 .intro-text-box button {
   margin-top: auto;
-  align-self: center;
   border-radius: 2px;
   color: white;
   background-color: #3882f6;
